@@ -1,0 +1,27 @@
+.amenities {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+ }
+ 
+ .amenities__header {
+    display: flex;
+ }
+ 
+ .amenities__title {
+    width: 100%;
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    line-height: 20px;
+ }
+ 
+ .amenities__list {
+    display: grid;
+    gap: 24px;
+ }
+  
+ .amenities__list-item {
+    font-size: 16px;
+    display: flex;
+ }

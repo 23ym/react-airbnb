@@ -1,0 +1,33 @@
+.details {
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+}
+
+.details__header {
+    display: flex;
+    gap: 10px;
+}
+
+.details__title {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dee2e6;
+    width: 100%;
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.details__list {
+    display: grid;
+    gap: 24px;
+}
+
+.details__list-item {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 8px;
+    font-size: 16px;
+    display: flex;
+    gap: 24px;
+}

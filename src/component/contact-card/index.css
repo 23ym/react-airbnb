@@ -1,0 +1,50 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__card {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact__block {
+  width: 546px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;  
+}
+
+.contact__text {
+  width: 272px;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #000;
+}
+
+.contact__sub-block {
+  display: flex;
+  gap: 16px;
+}
+
+.contact__sub-value {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.contact__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}
